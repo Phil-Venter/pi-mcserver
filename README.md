@@ -7,7 +7,7 @@ A simple script that sets up a Raspberry PI 3 for Minecraft server hosting
 **Settings**
 
 - **Server** [Purpur](https://purpurmc.org/)
-- ** Minecraft Version** 1.19.2
+- **Minecraft Version** 1.19.2
 - **Server install location** /home/pi/mcserver
 - **Initial RAM to be used by Java** 768MB
 - **Max RAM to be used by Java** 1GB
