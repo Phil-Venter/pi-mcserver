@@ -1,5 +1,6 @@
+MINECRAFT_VERSION=1.19.2
 SERVER_LOCATION=/home/pi/mcserver
-SERVER_JAR_URL=https://api.papermc.io/v2/projects/paper/versions/1.19.2/builds/265/downloads/paper-1.19.2-265.jar
+SERVER_JAR_URL=https://api.purpurmc.org/v2/purpur/${MINECRAFT_VERSION}/latest/download
 JAVA_AVG_RAM=768
 JAVA_MAX_RAM=1024
 SWAP_SIZE=1820
@@ -7,7 +8,7 @@ SWAP_SIZE=1820
 # UPDATE PI
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y curl openjdk-17-jre
+sudo apt install -y openjdk-17-jre
 
 # MINECRAFT
 mkdir -p "${SERVER_LOCATION}"
