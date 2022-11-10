@@ -13,7 +13,7 @@ curl -s https://raw.githubusercontent.com/Phil-Venter/pi-mcserver/main/install.s
 - **Server** [Purpur](https://purpurmc.org/)
 - **Minecraft Version** 1.19.2
 - **Server install location** /home/pi/mcserver
-- **Initial RAM to be used by Java** 768MB
+- **Initial RAM to be used by Java** 1GB
 - **Max RAM to be used by Java** 1GB
 - **Linux Page swap size** 2GB
 
