@@ -29,7 +29,7 @@ nano install.sh
 
 - MINECRAFT_VERSION: Minecraft version to install
 - SERVER_LOCATION: where the server will be installed
-- SERVER_JAR_URL: URL of the Minecraft Server JAR file (If not using Purpur, unsure you get the correct URL that matches the version you want)
+- SERVER_JAR_URL: URL of the Minecraft Server JAR file (If not using Purpur, ensure the correct URL that matches the version is here)
 - JAVA_AVG_RAM: Java -Xms property, Starting RAM (in MB) allocated to Java.
 - JAVA_MAX_RAM: Java -Xmx property, Maximum RAM (in MB) allocated to Java.
 - SWAP_SIZE: Linux page SWAP size (in MB), default PI installaction allocates 100MB
