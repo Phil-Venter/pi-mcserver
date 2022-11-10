@@ -4,7 +4,9 @@ A simple script that sets up a Raspberry PI 3 for Minecraft server hosting
 ## Running script
 ### Un-attended
 
-`curl -s https://raw.githubusercontent.com/Phil-Venter/pi-mcserver/main/install.sh | bash`
+```bash
+curl -s https://raw.githubusercontent.com/Phil-Venter/pi-mcserver/main/install.sh | bash
+```
 
 **Default Settings**
 
@@ -32,4 +34,6 @@ nano install.sh
 - JAVA_MAX_RAM: Java -Xmx property, Maximum RAM (in MB) allocated to Java.
 - SWAP_SIZE: Linux page SWAP size (in MB), default PI installaction allocates 100MB
 
-`./install.sh`
+```bash
+./install.sh
+```
